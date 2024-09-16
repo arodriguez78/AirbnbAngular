@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { Category } from '../../category.model';
-import { CategoryService } from '../../category.service';
+import { Category } from './category.model';
+import { CategoryService } from './category.service';
 
 @Component({
   selector: 'app-category',
