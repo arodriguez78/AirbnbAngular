@@ -1,7 +1,8 @@
 import { Component, effect, inject, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 import { FaIconComponent } from "@fortawesome/angular-fontawesome";
-import { dayjs } from "dayjs";
+
+import dayjs from 'dayjs';
 import { filter, Subscription } from "rxjs";
 import { Pagination } from "../core/model/request.model";
 import { CardListing } from "../landlord/model/listing.model";
